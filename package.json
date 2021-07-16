@@ -1,0 +1,29 @@
+{
+  "name": "file-glob-hash-action",
+  "version": "1.0.0",
+  "description": "This action calculates a hash for file globs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build -o dist index.js",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamhammerAG/file-glob-hash-action"
+  },
+  "keywords": [],
+  "author": "Samhammer AG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamhammerAG/file-glob-hash-action/issues"
+  },
+  "homepage": "https://github.com/SamhammerAG/file-glob-hash-action",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/glob": "^0.2.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "jest": "^26.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+name: 'File Glob Hash Action'
+description: 'Get unique hash from file globs'
+author: SamhammerAG
+branding:
+  icon: hash
+  color: purple
+inputs:
+  path:
+    description: 'file globs to hash'
+    required: true
+outputs:
+  hash:
+    description: 'The hash of the files'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
