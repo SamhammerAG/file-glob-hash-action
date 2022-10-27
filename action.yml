@@ -12,5 +12,5 @@ outputs:
   hash:
     description: 'The hash of the files'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
